@@ -9,6 +9,6 @@ function timedCount() {
     c -= 1;
     t = setTimeout(function(){ timedCount() }, 1000);
     if( c == 0) {
-        window.location.assign("http://nnduc.me/?utm_campaign=redirect&utm_medium=email&utm_source=newsletter&utm_content=toplink")
+        window.location.assign("https://nnduc.me/?utm_campaign=redirect&utm_medium=email&utm_source=newsletter&utm_content=toplink")
     }
 }
